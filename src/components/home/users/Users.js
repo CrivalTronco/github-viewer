@@ -14,7 +14,7 @@ const Users = () => {
     }
     else {
         return (
-            <div className="grid gap-4 p-4 h-uch overflow-y-auto grid-cols-3 md:grid-cols-10">
+            <div className="grid gap-4 p-4 h-uch overflow-y-auto grid-cols-3 md:grid-cols-10 md:grid-rows-5">
                 { users.map( user => (
                     <UserItem key={ user.id } user={ user } />
                 ))}

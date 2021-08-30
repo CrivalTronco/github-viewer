@@ -8,7 +8,7 @@ import webdev from './web-development.png'
 const About = () => {
     return (
         <Fragment>
-            <section className="h-cph p-4">
+            <div className="h-cph p-4">
                 <div className="text-center mb-20">
                     <div className="text-3xl">
                         About the App
@@ -34,7 +34,7 @@ const About = () => {
                         app.
                     </p>
                 </div>
-            </section>
+            </div>
         </Fragment>
     )
 }

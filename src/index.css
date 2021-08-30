@@ -26,7 +26,7 @@
 	}
 
 	.card {
-		@apply p-4 rounded overflow-hidden shadow-lg bg-gray-600 h-44;
+		@apply p-4 rounded overflow-hidden shadow-lg bg-gray-600;
 	}
 }
 

@@ -7,7 +7,7 @@ import {
   SET_LOADING,
   CLEAR_USERS,
   GET_USER,
-  GET_REPOS
+  GET_PROFILE
 } from '../types';
 
 let githubClientId;
@@ -74,7 +74,7 @@ const GithubState = props => {
         );
 
         dispatch({
-        type: GET_REPOS,
+        type: GET_PROFILE,
         payload: res.data
         });
     };
