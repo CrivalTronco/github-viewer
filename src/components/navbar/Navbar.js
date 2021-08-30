@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 // github icon
 import { AiFillGithub } from 'react-icons/ai'
 import { GiHamburgerMenu } from 'react-icons/gi'
-asdasd
+
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="content-center text-3xl">
                 <AiFillGithub className="mx-2"/> GitHub Viewer
             </div>
-            <ul className="nav-links text-2xl hidden md:flex">
+            <ul className="nav-links text-xl hidden md:flex">
                 <li className="mx-4 hover:underline">
                     <Link to='/'>Home</Link>
                 </li>
