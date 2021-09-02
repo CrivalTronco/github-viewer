@@ -5,6 +5,7 @@ import Users from './users/Users'
 import Search from './search/Search'
 
 const Home = () => {
+
     return (
         <Fragment>
             <Search />

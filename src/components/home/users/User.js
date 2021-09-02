@@ -41,7 +41,7 @@ const User = ({ match }) => {
                         Back to search
                     </Link>
                 </div>
-                <div className="px-24 py-4">
+                <div className="px-24 py-4 md:px-8 md:py-8">
                     <div className="card grid grid-cols-2">
                         <div className="justify-center items-center text-center m-auto">
                             <img src={ avatar_url } alt="" className="w-52 rounded"/>
@@ -98,7 +98,7 @@ const User = ({ match }) => {
                         </div>
                     </div>
                 </div>
-                <div className="px-24 py-4">
+                <div className="px-24 py-4 md:px-8 md:py-8">
                     <div className="card text-center">
                         <span className="mx-2 bg-red-900 p-2 rounded">Followers: {followers}</span>
                         <span className="mx-2 bg-yellow-900 p-2 rounded">Following: {following}</span>
@@ -106,7 +106,7 @@ const User = ({ match }) => {
                         <span className="mx-2 bg-purple-900 p-2 rounded">Public Gists: {public_gists}</span>
                     </div>
                 </div>
-                <div className="px-24 py-4">
+                <div className="px-24 py-4 md:px-8 md:py-8">
                     <Repos repos={ repos } />
                 </div>
             </Fragment>

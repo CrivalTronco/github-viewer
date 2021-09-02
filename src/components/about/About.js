@@ -6,6 +6,7 @@ import { AiFillGithub } from 'react-icons/ai'
 import webdev from './web-development.png'
 
 const About = () => {
+    
     return (
         <Fragment>
             <div className="h-cph p-4">
