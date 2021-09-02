@@ -4,7 +4,7 @@ import {
     CLEAR_USERS,
     GET_USER,
     GET_PROFILE
-  } from '../types';
+} from '../types';
   
 const fn = (state, action) => {
     switch (action.type) {
