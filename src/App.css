@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* Global Styles */
-:root {
-	/* --danger-color: #dc3545;
-  --success-color: #28a745; */
-}
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -44,6 +38,10 @@ body {
 
 .nav-links {
 	display: flex;
+}
+
+.grid-row-height {
+	grid-auto-rows: 11rem;
 }
 
 @media only screen and (max-width: 767px) {
