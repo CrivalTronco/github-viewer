@@ -44,7 +44,7 @@ const User = ({ match }) => {
                 <div className="px-24 py-4 md:px-8 md:py-8">
                     <div className="card grid grid-cols-2">
                         <div className="justify-center items-center text-center m-auto">
-                            <img src={ avatar_url } alt="" className="w-52 rounded"/>
+                            <img src={ avatar_url } alt="" className="w-52 rounded m-auto"/>
                             <div className="text-lg mt-2">
                                 { name }
                             </div>
