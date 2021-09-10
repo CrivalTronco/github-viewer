@@ -30,7 +30,7 @@ const About = () => {
                         <img src={webdev} alt="" className="w-1/4"/>
                     </div>
                     <p>
-                        Front-ent software engineer with six years of experience using HTML, CSS, jQuery
+                        Front-End software engineer with six years of experience using HTML, CSS, jQuery
                         and JavaScript. I am in the process of learning ReactJS. This is my first ReactJS
                         app.
                     </p>
